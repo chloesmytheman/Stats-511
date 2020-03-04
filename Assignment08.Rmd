@@ -1,7 +1,7 @@
 ---
 title: "STAT 411/511 - Assignment 8"
-author: "Your name"
-date: "Date"
+author: "Chloe, McKenna, Nolan W."
+date: "3/11/20"
 output:
   pdf_document: default
   html_document: default
@@ -14,7 +14,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 (a) State the assumptions for a simple linear regression. Discuss briefly how these assumptions compare with the assumptions for t-tests and ANOVA.
 
+The assumptions for a simple linear regression are that observations are independent from one another, and residuals are normally distributed with constant variance. These assumptions differ from the assumptions for t-tests and ANOVA only because it specifies that we are looking at the residuals. SLR also requires linearity and no outliers. 
+
 (b) What assumptions are made about the distribution of the explanatory variable in SLR?  How might the distribution of the explanatory variable affect the results of SLR analysis?
+
+There are no assumptions made about the explanatory variable in SLR. 
 
 Use code in Assign8.R to work through parts (c-e) for each of the following scenarios:
 
